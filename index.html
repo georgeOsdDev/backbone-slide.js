@@ -1,84 +1,87 @@
-<!DOCTYPE html>
-<html>
-
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Backbone-slide.js : A very simple HTML presentation tool using backbone.js" />
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Backbone-slide.js</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/georgeOsdDev/backbone-slide.js">View on GitHub</a>
-
-          <h1 id="project_title">Backbone-slide.js</h1>
-          <h2 id="project_tagline">A very simple HTML presentation tool using backbone.js</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/georgeOsdDev/backbone-slide.js/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/georgeOsdDev/backbone-slide.js/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./css/backbone-slide.css">
+  <link rel="stylesheet" href="./css/prettify.css">
+  <link rel="stylesheet" href="./css/custom.css">  
+  <script src="./javascript/lib/modernizr-2.5.3.min.js"></script>
+  <title>Backbone-Slide.js</title>  
+</head>
+<body>
+  <a href="https://github.com/georgeOsdDev/backbone-slide.js">
+    <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub">
+  </a>
+  <section>
+    <div id="title">
+      <h1>Welcome to backbone-slide</h1>
+      <p>use &harr; to navigate.</p>
+      <p class="footer">
+        Developed by <a href="http://about.me/takeharu.oshida" target="_blank">Takeharu.Oshida</a><br>
+        Licenced under <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT</a>
+      </p>
     </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Backbone-slide.js maintained by <a href="https://github.com/georgeOsdDev">georgeOsdDev</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-15502477-8 ");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
-
-
-  </body>
+  </section>
+  <section>
+    <h1>backbone-slide.js is ...</h1>
+    <p>A very simple HTML presentation tool.</p>
+    <p>It depend on <strong><a href="http://backbonejs.org/" target="_blank">backbone.js</a></strong>, and I write this for study backbone.js's MV Framework.</p>
+    <p>Source code can be found on <a href="https://github.com/georgeOsdDev/backbone-slide.js" target="_blank">github</a>, licenced under <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT</a>.And Document can be found <a href="./doc/backbone-slide.html" target="_blank">Here</a>.</p>
+  </section>
+  <section>
+    <h1>Getting Started</h1>
+    <ul>
+      <li>
+        <p>Download sources from <a href="https://github.com/georgeOsdDev/backbone-slide.js" target="_blank">github</a>.</p>
+      </li>
+      <li>
+        <p>Write contents in &lt;section&gt tag.</p>
+      </li>
+      <li>
+        <p>Include style sheet in &lt;head&gt; tag and scripts in &lt;body&gt; tag.</p> 
+      </li>
+      <li>
+        <p>Call <span style="color:#606">BackboneSlide.init();</span> after DOM ready.</p> 
+      </li>
+      <li style="list-style-type:none">
+        <pre>
+          &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;link rel="stylesheet" href="./css/backbone-slide.css"&gt;
+            &lt;title&gt;Backbone-Slide.js&lt;/title&gt;
+          &lt;/head&gt;
+          &lt;body&gt;
+            &lt;section&gt;&lt;p&gt;HelloWorld!&lt;/p&gt;&lt;/section&gt;
+            ...
+            &lt;script src="./javascript/lib/jquery-1.7.1.js"&gt;&lt;/script&gt;
+            &lt;script src="./javascript/lib/underscore.js"&gt;&lt;/script&gt;
+            &lt;script src="./javascript/lib/backbone-min.js"&gt;&lt;/script&gt;
+            &lt;script src="./javascript/backbone-slide.js"&gt;&lt;/script&gt;
+            &lt;script type="text/javascript"&gt;
+              $(function(){
+                BackboneSlide.init();
+              });
+            &lt;/script&gt;
+          &lt;/body&gt;
+        </pre>
+      </li>
+      <li>
+        <p>backbone-slide.css is just for presentation controll.So write your own style in your stylesheet.</p> 
+      </li>
+    </ul>
+  </section>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="./javascript/lib/jquery-1.7.1.minjs"><\/script>')</script>
+  <script src="./javascript/lib/underscore.js"></script>
+  <script src="./javascript/lib/backbone-min.js"></script>
+  <script src="./javascript/lib/prettify.js"></script>
+  <script src="./javascript/backbone-slide.js"></script>
+  <script type="text/javascript">
+    $(function(){
+      BackboneSlide.init();
+      $('pre').addClass("prettyprint");
+      prettyPrint();
+    });
+  </script>
+</body>
 </html>
