@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./css/backbone-slide.css">
+  <link rel="stylesheet" href="./css/prettify.css">
+  <link rel="stylesheet" href="./css/custom.css">  
+  <script src="./javascript/lib/modernizr-2.5.3.min.js"></script>
+  <title>Backbone-Slide.js</title>  
+</head>
+<body>
+  <a href="https://github.com/georgeOsdDev/backbone-slide.js">
+    <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub">
+  </a>
+  <section>
+    <div id="title">
+      <h1>Welcome to backbone-slide</h1>
+      <p>use &harr; to navigate.</p>
+      <p class="footer">
+        Developed by <a href="http://about.me/takeharu.oshida" target="_blank">Takeharu.Oshida</a><br>
+        Licenced under <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT</a>
+      </p>
+    </div>
+  </section>
+  <section>
+    <h1>backbone-slide.js is ...</h1>
+    <p>A very simple HTML presentation tool.</p>
+    <p>It depend on <strong><a href="http://backbonejs.org/" target="_blank">backbone.js</a></strong>, and I write this for study backbone.js's MV Framework.</p>
+    <p>Source code can be found on <a href="https://github.com/georgeOsdDev/backbone-slide.js" target="_blank">github</a>, licenced under <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT</a>.And Document can be found <a href="./doc/backbone-slide.html" target="_blank">Here</a>.</p>
+  </section>
+  <section>
+    <h1>Getting Started</h1>
+    <ul>
+      <li>
+        <p>Download sources from <a href="https://github.com/georgeOsdDev/backbone-slide.js" target="_blank">github</a>.</p>
+      </li>
+      <li>
+        <p>Write contents in &lt;section&gt tag.</p>
+      </li>
+      <li>
+        <p>Include style sheet in &lt;head&gt; tag and scripts in &lt;body&gt; tag.</p> 
+      </li>
+      <li>
+        <p>Call <span style="color:#606">BackboneSlide.init();</span> after DOM ready.</p> 
+      </li>
+      <li style="list-style-type:none">
+        <pre>
+          &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;link rel="stylesheet" href="./css/backbone-slide.css"&gt;
+            &lt;title&gt;Backbone-Slide.js&lt;/title&gt;
+          &lt;/head&gt;
+          &lt;body&gt;
+            &lt;section&gt;&lt;p&gt;HelloWorld!&lt;/p&gt;&lt;/section&gt;
+            ...
+            &lt;script src="./javascript/lib/jquery-1.7.1.js"&gt;&lt;/script&gt;
+            &lt;script src="./javascript/lib/underscore.js"&gt;&lt;/script&gt;
+            &lt;script src="./javascript/lib/backbone-min.js"&gt;&lt;/script&gt;
+            &lt;script src="./javascript/backbone-slide.js"&gt;&lt;/script&gt;
+            &lt;script type="text/javascript"&gt;
+              $(function(){
+                BackboneSlide.init();
+              });
+            &lt;/script&gt;
+          &lt;/body&gt;
+        </pre>
+      </li>
+      <li>
+        <p>backbone-slide.css is just for presentation controll.So write your own style in your stylesheet.</p> 
+      </li>
+    </ul>
+  </section>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="./javascript/lib/jquery-1.7.1.minjs"><\/script>')</script>
+  <script src="./javascript/lib/underscore.js"></script>
+  <script src="./javascript/lib/backbone-min.js"></script>
+  <script src="./javascript/lib/prettify.js"></script>
+  <script src="./javascript/backbone-slide.js"></script>
+  <script type="text/javascript">
+    $(function(){
+      BackboneSlide.init();
+      $('pre').addClass("prettyprint");
+      prettyPrint();
+    });
+  </script>
+</body>
+</html>

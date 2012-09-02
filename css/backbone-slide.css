@@ -1,0 +1,19 @@
+/*
+This style is just for presentation controll.
+Add your own style for design.
+*/
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+header,section,footer {
+  display:none;
+}
+
+#wrap {
+  margin: 20px;
+  padding: 20px;
+  min-height:580px;
+}

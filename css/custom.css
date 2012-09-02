@@ -1,0 +1,22 @@
+/* edit your style */
+body {
+  background-color:whiteSmoke;
+}
+
+#wrap{
+  font-family: sans-serif;
+}
+
+#title{
+  text-align:center;
+  margin:100px;
+}
+
+.footer{
+  margin:300px;
+}
+
+a {
+  color:black;
+  /*text-decoration: none;*/
+}
